@@ -45,7 +45,7 @@ const[sortarr , setsortarr] = useState([]);
 
     const helper2 = async()=>{
       try{
-        const res = await fetch("/latestrecipes" , {
+        const res = await fetch("https://recipeapi-apm6.onrender.com/latestrecipes" , {
           method:"GET"
         })
         const result = await res.json();
