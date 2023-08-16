@@ -164,8 +164,8 @@ const[sortarr , setsortarr] = useState([]);
         <div className="recipe">
         <div className="recipeimage">
         <Link to={`/recipe/${object._id}`}>
-        {object.imageurl && <img src={`http://localhost:3000/uploads/${object.imageurl}`} alt="" /> }
-        {object.image && <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> }
+        {object.imageurl && <img src={`https://recipeapi-apm6.onrender.com/${object.imageurl}`} alt="" /> }
+        {object.image && <img src={`https://recipeapi-apm6.onrender.com/${object.image}`} alt="" /> }
         
         </Link>
         
@@ -194,8 +194,8 @@ const[sortarr , setsortarr] = useState([]);
         <div className="recipeimage">
         <Link to={`/recipe/${object._id}`}>
         {/* <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> */}
-        {object.imageurl && <img src={`http://localhost:3000/uploads/${object.imageurl}`} alt="" /> }
-        {object.image && <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> }
+        {object.imageurl && <img src={`https://recipeapi-apm6.onrender.com/uploads/${object.imageurl}`} alt="" /> }
+        {object.image && <img src={`https://recipeapi-apm6.onrender.com/uploads/${object.image}`} alt="" /> }
         </Link>
           
             {/* <img src={springroll} alt="" /> */}
@@ -222,8 +222,8 @@ const[sortarr , setsortarr] = useState([]);
         <div className="recipeimage">
         <Link to={`/recipe/${object._id}`}>
         {/* <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> */}
-        {object.imageurl && <img src={`http://localhost:3000/uploads/${object.imageurl}`} alt="" /> }
-        {object.image && <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> }
+        {object.imageurl && <img src={`https://recipeapi-apm6.onrender.com/${object.imageurl}`} alt="" /> }
+        {object.image && <img src={`https://recipeapi-apm6.onrender.com/uploads/${object.image}`} alt="" /> }
         </Link>
         </div>
         <p style={{marginTop:"15px"}}>{object.name}</p>
@@ -246,8 +246,8 @@ const[sortarr , setsortarr] = useState([]);
         <div className="recipeimage">
         <Link to={`/recipe/${object._id}`}>
         {/* <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> */}
-        {object.imageurl && <img src={`http://localhost:3000/uploads/${object.imageurl}`} alt="" /> }
-        {object.image && <img src={`http://localhost:3000/uploads/${object.image}`} alt="" /> }
+        {object.imageurl && <img src={`https://recipeapi-apm6.onrender.com/${object.imageurl}`} alt="" /> }
+        {object.image && <img src={`https://recipeapi-apm6.onrender.com/${object.image}`} alt="" /> }
         </Link>
         </div>
         <p style={{marginTop:"15px"}}>{object.name}</p>
