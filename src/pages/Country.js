@@ -45,7 +45,7 @@ const Country = () => {
         <div className="recipe" style={{marginBottom:"30px" , marginTop:"30px"}}>
         <div className="recipeimage">
         <Link to={`/recipe/${object._id}`}>
-        <img src={`http://localhost:3000/uploads/${object.image}`} alt="" />
+        <img src={`https://recipeapi-apm6.onrender.com/uploads/${object.image}`} alt="" />
         </Link>
         
         
