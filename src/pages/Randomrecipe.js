@@ -53,8 +53,8 @@ const Randomrecipe = () => {
 
       <div className="recipepage">
         <div className="recipepageimg">
-            {randomobject.image &&< img src={`http://localhost:3000/uploads/${randomobject.image}`} alt="" />} 
-            {randomobject.imageurl &&< img src={`http://localhost:3000/uploads/${randomobject.imageurl}`} alt="" />} 
+            {randomobject.image &&< img src={`https://recipeapi-apm6.onrender.com/uploads/${randomobject.image}`} alt="" />} 
+            {randomobject.imageurl &&< img src={`https://recipeapi-apm6.onrender.com/uploads/${randomobject.imageurl}`} alt="" />} 
         </div>
         <div className="recipepagecontent">
             <h1>{randomobject.name}</h1>
