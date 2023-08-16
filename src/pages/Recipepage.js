@@ -52,8 +52,8 @@ const Recipepage = () => {
 
       <div className="recipepage">
         <div className="recipepageimg">
-            {recipeinfo.image &&< img src={`http://localhost:3000/uploads/${recipeinfo.image}`} alt="" />} 
-            {recipeinfo.imageurl &&< img src={`http://localhost:3000/uploads/${recipeinfo.imageurl}`} alt="" />} 
+            {recipeinfo.image &&< img src={`https://recipeapi-apm6.onrender.com/uploads/${recipeinfo.image}`} alt="" />} 
+            {recipeinfo.imageurl &&< img src={`https://recipeapi-apm6.onrender.com/uploads/${recipeinfo.imageurl}`} alt="" />} 
         </div>
         <div className="recipepagecontent">
             <h1>{recipeinfo.name}</h1>
